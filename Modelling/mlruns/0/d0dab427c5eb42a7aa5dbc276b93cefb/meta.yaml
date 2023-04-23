@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d0dab427c5eb42a7aa5dbc276b93cefb/artifacts
+end_time: 1682222513758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0dab427c5eb42a7aa5dbc276b93cefb
+run_name: xgboostmodel
+run_uuid: d0dab427c5eb42a7aa5dbc276b93cefb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682222513641
+status: 4
+tags: []
+user_id: Heidi Al Wakeel

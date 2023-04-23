@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b1a0651812444f6cbc1131dab4bbdcd7/artifacts
+end_time: 1682222238164
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1a0651812444f6cbc1131dab4bbdcd7
+run_name: football
+run_uuid: b1a0651812444f6cbc1131dab4bbdcd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682222238042
+status: 4
+tags: []
+user_id: Heidi Al Wakeel
