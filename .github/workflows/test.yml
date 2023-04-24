@@ -1,0 +1,7 @@
+name: python_test
+
+on:
+  push:
+    branches:
+      - main
+      
