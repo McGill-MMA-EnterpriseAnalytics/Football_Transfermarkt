@@ -21,5 +21,5 @@ jobs:
       #- name: Install dependencies
        # run: pip install -r requirements.txt # replace with the command to install your Python dependencies
       - name: Run Python script
-        run: python Football_Transfermarkt/.github/example.py  # replace with the path to your Python script
+        run: python .github/example.py  # replace with the path to your Python script
       
