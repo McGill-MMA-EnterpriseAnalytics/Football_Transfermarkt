@@ -14,6 +14,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16.0'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -21,5 +23,5 @@ jobs:
       #- name: Install dependencies
        # run: pip install -r requirements.txt # replace with the command to install your Python dependencies
       - name: Run Python script
-        run: python .github/example.py  # replace with the path to your Python script
+        run: python Machine_Learning_Engineering/app.py  # replace with the path to your Python script
       
