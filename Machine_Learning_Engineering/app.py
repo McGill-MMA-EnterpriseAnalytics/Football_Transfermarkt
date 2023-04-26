@@ -1,5 +1,5 @@
 
-from flask import Flask
+from flask import Flask, render_template, request
 import pandas as pd
 import pickle
 
@@ -13,12 +13,12 @@ with open('my_list.pkl', 'rb') as data:
 
 @app.route('/')
 def index():
-    return Flask.render_template('index.html')
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
     # Get the ID from the form submission
-    id = Flask.request.form['id']
+    id = request.form['id']
     
     # Get the corresponding row from the data
     row = my_array[int(id)]
