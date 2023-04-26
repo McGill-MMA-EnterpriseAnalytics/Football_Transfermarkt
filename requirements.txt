@@ -61,7 +61,7 @@ scikit-learn==1.2.2
 scipy==1.10.0
 setuptools==66.0.0
 six==1.16.0
-sklearn==0.0.post4
+scikit-learn==0.0.post4
 stack-data==0.6.2
 threadpoolctl==2.2.0
 torch==1.13.1
