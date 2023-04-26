@@ -18,7 +18,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          python -m pip install flask
+          python3 -m pip install flask
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
