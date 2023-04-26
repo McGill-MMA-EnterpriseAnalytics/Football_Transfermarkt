@@ -1,30 +1,30 @@
-name: python_test
+# name: python_test
 
-on:
-  push:
-    branches:
-      - main
-jobs:
-  run-python-script:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16.0'
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install flask
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.8.16' 
-      #- name: Install dependencies
-       # run: pip install -r requirements.txt # replace with the command to install your Python dependencies
-      - name: Run Python script
-        run: python Machine_Learning_Engineering/app.py  # replace with the path to your Python script
+# on:
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   run-python-script:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: '16.0'
+#       - name: Install dependencies
+#         run: |
+#           pip install --upgrade pip
+#           pip install -r requirements.txt
+#           pip install flask
+#       - name: Set up Python
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: '3.8.16' 
+#       #- name: Install dependencies
+#        # run: pip install -r requirements.txt # replace with the command to install your Python dependencies
+#       - name: Run Python script
+#         run: python Machine_Learning_Engineering/app.py  # replace with the path to your Python script
       
