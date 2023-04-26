@@ -30,7 +30,7 @@ def predict():
     # Make a prediction using the machine learning model
     prediction = model.predict(features_array)    
     # Return the prediction to the user
-    return f'The predicted value for ID {id} is {prediction[0]}.'
+    return f'The predicted value for ID {id} is €{round(prediction[0],2)}.'
 
 if __name__ == '__main__':
     app.run(debug=True)
