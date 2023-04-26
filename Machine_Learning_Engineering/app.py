@@ -6,8 +6,8 @@ import pickle
 app = Flask(__name__)
 
 # Load the machine learning model and the CSV data
-model = pickle.load(open("/Machine_Learning_Engineering/model.pkl", "rb"))
-with open('/Machine_Learning_Engineering/my_list.pkl', 'rb') as data:
+model = pickle.load(open("model.pkl", "rb"))
+with open('my_list.pkl', 'rb') as data:
     my_array = pickle.load(data)
 
 
