@@ -6,11 +6,11 @@ import pickle
 app = Flask(__name__)
 
 # Load the machine learning model and the CSV data
-model = pickle.load(open("model.pkl", "rb"))
-with open('my_list.pkl', 'rb') as data:
+model = pickle.load(open("model_new.pkl", "rb"))
+with open("X_pca.pickle", 'rb') as data:
     my_array = pickle.load(data)
 
-
+print(len(my_array))
 @app.route('/')
 def index():
     return render_template('index.html')
