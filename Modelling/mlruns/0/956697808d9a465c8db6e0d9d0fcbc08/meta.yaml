@@ -1,5 +1,5 @@
 artifact_uri: mlflow-artifacts:/0/956697808d9a465c8db6e0d9d0fcbc08/artifacts
-end_time: null
+end_time: 1682223106073
 entry_point_name: ''
 experiment_id: '0'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1682222630769
-status: 1
+status: 4
 tags: []
 user_id: Heidi Al Wakeel
